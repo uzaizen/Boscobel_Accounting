@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345476000592",
+    "project_id": "accounting-c03a7",
+    "storage_bucket": "accounting-c03a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345476000592:android:0f4aa184eee341ff32da55",
+        "android_client_info": {
+          "package_name": "com.example.boscobel_accounting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKiIDYpKNLtAjxH5dVmf4TS9pDAsx6oxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

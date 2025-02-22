@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Boscobel_Accounting</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="accountingdata">損益データ</string>
+    <string name="accountingitem">勘定科目</string>
+    <string name="companydata">会社データ</string>
+
+    <string name="input">入力</string>
+    <string name="modify">修正</string>
+    <string name="delete">削除</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
