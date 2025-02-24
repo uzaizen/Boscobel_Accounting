@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="left"
-        android:text="Acounting Item Code"
+        android:text="Company Code"
         android:textSize="16sp"/>
 
     <TextView
@@ -21,16 +21,16 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="left"
-        android:text="Acounting Item Name"
+        android:text="Company Name"
         android:textSize="16sp"/>
 
     <TextView
-        android:id="@+id/text_classification"
+        android:id="@+id/text_abbreviation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="left"
-        android:text="Classification"
+        android:text="Abbreviation"
         android:textSize="16sp"/>
 
 
