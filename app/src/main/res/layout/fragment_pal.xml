@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnSelectDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年月を選択" />
+
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="選択した年月: 未選択" />
+
+
+        <Button
+            android:id="@+id/showDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="会社を選択する"/>
+
+        <TextView
+            android:id="@+id/tvSelectedCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="選択した会社：未選択"/>
+
+        <Button
+            android:id="@+id/btnSaveData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="指定した年月、会社を使う" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text = "科目コード"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text = "科目名"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text = "区分"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text = "金額"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text = "コメント"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/edit_accountitem_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="科目コード"/>
+
+        <EditText
+            android:id="@+id/edit_accounititem_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="科目名"/>
+
+
+        <EditText
+            android:id="@+id/edit_accountitem_classification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="区分"/>
+
+        <EditText
+            android:id="@+id/edit_accountitem_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="金額"/>
+
+        <EditText
+            android:id="@+id/edit_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="コメント"/>
+
+        <Button
+            android:id="@+id/button_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter"/>
+
+    </LinearLayout>
+
+</LinearLayout>

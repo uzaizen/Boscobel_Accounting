@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Boscobel_Accounting</string>
+    <string name="app_name">損益データ入力システム</string>
 
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>

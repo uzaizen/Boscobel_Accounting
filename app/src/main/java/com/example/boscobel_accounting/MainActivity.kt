@@ -69,9 +69,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun Fragment_AccountingData(){
-//        val fragment = AccountDataFragment()
+        val fragment = PaLFragment()
         val transaction = supportFragmentManager.beginTransaction()
-//        transaction.replace(R.id.fragment_container, fragment)
+        transaction.replace(R.id.fragment_container, fragment)
         transaction.addToBackStack(null) // オプションでバックスタックに追加
         transaction.commit()
     }
